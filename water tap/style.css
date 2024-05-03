@@ -1,0 +1,58 @@
+.container{
+    display: flex;
+justify-content: center;
+align-items: center; 
+margin-top: 100px;
+}
+#tank{
+    height:400px;
+    width: 300px;
+    border: 3px solid black;
+    border-top:none;
+}
+#pipe{
+    height:10px;
+    width:200px;
+    border: 3px solid black;
+    margin-top:385px;
+    border-right: none;
+    background-color: red;
+}
+#tapp{
+    margin-top:385px;
+    height:10px;
+    width:20px;
+    border: 3px solid black;
+    border-left: none;
+    border-right: none;
+    background-color: red;
+}
+#tap{
+    margin-top: 360px;
+    height:15px;
+    width:20px;
+    border: 3px solid black;
+    margin-left: -10px;
+    background-color: grey;
+}
+#curve{
+    height:20px;
+    width: 5px;
+    border: 3px solid black;
+    margin-top: 400px;
+    margin-left: -10px;
+    background-color: grey;
+}
+#water{
+    height:400px;
+    width: 300px;
+    background-color:aqua;  
+}
+#tapwater{
+    margin-top:22px;
+    height:250px;
+    width: 5px;
+    background-color: aqua;
+    visibility:hidden
+}
+
